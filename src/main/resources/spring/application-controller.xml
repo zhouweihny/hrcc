@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xmlns:mvc="http://www.springframework.org/schema/mvc" xsi:schemaLocation="http://www.springframework.org/schema/beans            http://www.springframework.org/schema/beans/spring-beans.xsd           http://www.springframework.org/schema/context            http://www.springframework.org/schema/context/spring-context.xsd           http://www.springframework.org/schema/mvc            http://www.springframework.org/schema/mvc/spring-mvc.xsd" default-autowire="byName">  
+  <context:component-scan base-package="com.modules.controller"/>  
+  <context:component-scan base-package="com.modules.directive"/>  
+  <bean id="configProperties" class="org.springframework.beans.factory.config.PropertiesFactoryBean"> 
+    <property name="locations"> 
+      <list> 
+        <value>classpath:config.properties</value>  
+        <value>classpath:jdbc.properties</value> 
+      </list> 
+    </property> 
+  </bean>  
+  <bean id="freemarkerConfigurer" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer"> 
+    <property name="templateLoaderPath" value="/WEB-INF/view/"/>  
+    <property name="defaultEncoding" value="UTF-8"/>  
+    <property name="freemarkerSettings"> 
+      <props> 
+        <prop key="template_update_delay">10</prop>  
+        <prop key="locale">zh_CN</prop>  
+        <prop key="datetime_format">yyyy-MM-dd HH:mm:ss</prop>  
+        <prop key="date_format">yyyy-MM-dd</prop>  
+        <prop key="number_format">#.##</prop> 
+      </props> 
+    </property>  
+    <property name="freemarkerVariables"> 
+      <map> 
+        <entry key="_properties" value-ref="freemarkerPropertiesDirective"/>  
+        <entry key="_sysdict" value-ref="sysDictDirective"/>  
+        <entry key="_sysdictlist" value-ref="sysDictListDirective"/>  
+        <entry key="_sysdictdata" value-ref="sysDictdataDirective"/>  
+        <entry key="_sysdictdatalist" value-ref="sysDictdataListDirective"/>  
+        <entry key="_sysmenu" value-ref="sysMenuDirective"/>  
+        <entry key="_sysmenulist" value-ref="sysMenuListDirective"/>  
+        <entry key="_sysrole" value-ref="sysRoleDirective"/>  
+        <entry key="_sysrolelist" value-ref="sysRoleListDirective"/>  
+        <entry key="_sysrolemenu" value-ref="sysRoleMenuDirective"/>  
+        <entry key="_user" value-ref="userDirective"/>  
+        <entry key="_time" value-ref="timeDirective"/>  
+        <entry key="_drug" value-ref="drugDirective"/>  
+        <entry key="_catalog" value-ref="catalogDirective"/>  
+        <entry key="_drugdrug" value-ref="drugDrugDirective"/>  
+        <entry key="_space" value-ref="spaceDirective"/>  
+        <entry key="_spacecatalog" value-ref="spaceCatalogDirective"/>  
+        <entry key="_factory" value-ref="factoryDirective"/>  
+        <entry key="_keywords" value-ref="keywordsDirective"/>  
+        <entry key="_drugwords" value-ref="drugwordsDirective"/>  
+        <entry key="_dosageform" value-ref="dosageformDirective"/>  
+        <entry key="_autocompare" value-ref="autocompareDirective"/>  
+        <entry key="_drugikwords" value-ref="drugikwordsDirective"/>  
+        <entry key="_point" value-ref="pointDirective"/>  
+        <entry key="_purchase" value-ref="purchaseDirective"/>  
+        <entry key="_purchasedetail" value-ref="purchaseDetailDirective"/>  
+        <entry key="_usersupplier" value-ref="userSupplierDirective"/>  
+        <entry key="_supplierpurchase" value-ref="supplierPurchaseDirective"/>  
+        <entry key="_supplierpurchasedetail" value-ref="supplierPurchaseDetailDirective"/>  
+        <entry key="_sdrug" value-ref="sdrugDirective"/>  
+        <entry key="_accesstoken" value-ref="accesstokenDirective"/>  
+        <entry key="_factorykeyword" value-ref="factoryKeywordDirective"/>  
+        <entry key="_store" value-ref="storeDirective"/>  
+        <entry key="_billdetail" value-ref="billDetailDirective"/>  
+        <entry key="_drugsupplier" value-ref="drugSupplierDirective"/>  
+        <entry key="_bill" value-ref="billDirective"/>  
+        <entry key="_agent" value-ref="agentDirective"/>  
+        <entry key="_plan" value-ref="planDirective"/>  
+        <entry key="_plandetail" value-ref="planDetailDirective"/>  
+        <entry key="_drugpromotion" value-ref="drugPromotionDirective"/>  
+        <entry key="_drugpromotionpurchaesr" value-ref="drugPromotionPurchaesrDirective"/>  
+        <entry key="_syswx" value-ref="sysWxDirective"/>  
+        <entry key="_syswxlist" value-ref="sysWxListDirective"/>  
+        <entry key="_syswxaccesstoken" value-ref="sysWxAccesstokenDirective"/>  
+        <entry key="_syswxmenu" value-ref="sysWxMenuDirective"/>  
+        <entry key="_syswxmsg" value-ref="sysWxMsgDirective"/>  
+        <entry key="_syswxmsglist" value-ref="sysWxMsgListDirective"/>  
+        <entry key="_syswxqrcode" value-ref="sysWxQrcodeDirective"/>  
+        <entry key="_syswxuser" value-ref="sysWxUserDirective"/>  
+        <entry key="_syswxmaterialimg" value-ref="sysWxMaterialImgDirective"/>  
+        <entry key="_syswxmaterialtw" value-ref="sysWxMaterialTwDirective"/>  
+        <entry key="_cmscategory" value-ref="cmsCategoryDirective"/>  
+        <entry key="_cmscategorylist" value-ref="cmsCategoryListDirective"/>  
+        <entry key="_cmscontent" value-ref="cmsContentDirective"/>  
+        <entry key="_userwx" value-ref="userWxDirective"/>  
+        <entry key="_erpuser" value-ref="erpuserDirective"/>  
+        <entry key="_userrole" value-ref="userRoleDirective"/>  
+        <entry key="_fxtree" value-ref="fxTreeDirective"/>  
+        <entry key="_fxcomname" value-ref="fxComnameDirective"/>  
+        <entry key="_fxbudgettable" value-ref="fxBudgettableDirective"/>  
+        <entry key="_fxmeta" value-ref="fxMetaDirective"/>  
+        <entry key="_fxmetadatas" value-ref="fxMetaDatasDirective"/>  
+        <entry key="_fxtreemeta" value-ref="fxTreeMetaDirective"/>  
+        <entry key="_fxtreemetadatas" value-ref="fxTreeMetaDatasDirective"/>  
+        <entry key="_comwords" value-ref="comwordsDirective"/>  
+        <entry key="_fxcomnametree" value-ref="fxComnameTreeDirective"/>  
+        <entry key="_fxtreemetadatasmsg" value-ref="fxTreeMetaDatasMsgDirective"/>  
+        <entry key="_userstore" value-ref="userStoreDirective"/>  
+        <entry key="_fxtreestore" value-ref="fxTreeStoreDirective"/>  
+        <entry key="_fxdrugstore" value-ref="fxDrugStoreDirective"/>  
+        <entry key="_fxcomnametreefactory" value-ref="fxComnameTreeFactoryDirective"/>  
+        <entry key="_storetype" value-ref="storeTypeDirective"/>  
+        <entry key="_storetypelist" value-ref="storeTypeListDirective"/>  
+        <entry key="_fxsalefile" value-ref="fxSaleFileDirective"/>  
+        <entry key="_fxsaledata" value-ref="fxSaleDataDirective"/>  
+        <entry key="_fxsalemonth" value-ref="fxSaleMonthDirective"/>  
+        <entry key="_fxcomnamezb" value-ref="fxComnameZbDirective"/>  
+        <entry key="_scheme" value-ref="schemeDirective"/>  
+        <entry key="_schemecomname" value-ref="schemeComnameDirective"/>  
+        <entry key="_fxorderfx" value-ref="fxOrderfxDirective"/>  
+        <entry key="_fxlhyydc" value-ref="fxLhyydcDirective"/> 
+      </map> 
+    </property> 
+  </bean>  
+  <bean id="viewResolver" class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver"> 
+    <property name="viewClass" value="org.springframework.web.servlet.view.freemarker.FreeMarkerView"/>  
+    <property name="suffix" value=".ftl"/>  
+    <property name="contentType" value="text/html;charset=UTF-8"/>  
+    <property name="exposeRequestAttributes" value="true"/>  
+    <property name="exposeSessionAttributes" value="true"/>  
+    <property name="exposeSpringMacroHelpers" value="true"/>  
+    <property name="requestContextAttribute" value="request"/> 
+  </bean>  
+  <bean id="utf8Charset" class="java.nio.charset.Charset" factory-method="forName"> 
+    <constructor-arg value="UTF-8"/> 
+  </bean>  
+  <mvc:annotation-driven> 
+    <mvc:message-converters> 
+      <bean class="org.springframework.http.converter.StringHttpMessageConverter"> 
+        <constructor-arg ref="utf8Charset"/> 
+      </bean>  
+      <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"> 
+        <property name="objectMapper"> 
+          <bean class="com.fasterxml.jackson.databind.ObjectMapper"> 
+            <property name="dateFormat"> 
+              <bean class="java.text.SimpleDateFormat"> 
+                <constructor-arg type="java.lang.String" value="yyyy-MM-dd HH:mm:ss"/> 
+              </bean> 
+            </property> 
+          </bean> 
+        </property> 
+      </bean> 
+    </mvc:message-converters> 
+  </mvc:annotation-driven>  
+  <mvc:resources mapping="/js/**" location="/js/"/>  
+  <mvc:resources mapping="/images/**" location="/images/"/>  
+  <mvc:resources mapping="/css/**" location="/css/"/>  
+  <mvc:resources mapping="/*.html" location="/"/>  
+  <mvc:default-servlet-handler/>  
+  <mvc:interceptors> 
+    <mvc:interceptor> 
+      <mvc:mapping path="/*"/>  
+      <bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor"/> 
+    </mvc:interceptor>  
+    <mvc:interceptor> 
+      <mvc:mapping path="/**"/>  
+      <mvc:exclude-mapping path="/sendcode.do"/>  
+      <mvc:exclude-mapping path="/verifycode.do"/>  
+      <mvc:exclude-mapping path="/login.do"/>  
+      <mvc:exclude-mapping path="/api/*"/>  
+      <mvc:exclude-mapping path="/apisc/*"/>  
+      <mvc:exclude-mapping path="/apipur/*"/>  
+      <mvc:exclude-mapping path="/apiana/*"/>  
+      <mvc:exclude-mapping path="/register.do"/>  
+      <mvc:exclude-mapping path="/wx/*"/>  
+      <mvc:exclude-mapping path="/wx/*/*"/>  
+      <mvc:exclude-mapping path="/ws/**"/>  
+      <mvc:exclude-mapping path="/wsp/**"/>  
+      <mvc:exclude-mapping path="/wxfx/**"/>  
+      <mvc:exclude-mapping path="/webwx/**"/>  
+      <bean class="com.modules.interceptor.WebInterceptor"/> 
+    </mvc:interceptor>  
+    <mvc:interceptor> 
+      <mvc:mapping path="/ws/**"/>  
+      <mvc:mapping path="/ws/billpagesub.do"/>  
+      <bean class="com.modules.interceptor.WsInterceptor"/> 
+    </mvc:interceptor>  
+    <mvc:interceptor> 
+      <mvc:mapping path="/wxfx/**"/>  
+      <bean class="com.modules.interceptor.WxfxInterceptor"/> 
+    </mvc:interceptor>  
+    <mvc:interceptor> 
+      <mvc:mapping path="/wsp/**"/>  
+      <mvc:mapping path="/wsp/billpagesub.do"/>  
+      <bean class="com.modules.interceptor.WspInterceptor"/> 
+    </mvc:interceptor> 
+  </mvc:interceptors>  
+  <bean id="localeResolver" class="org.springframework.web.servlet.i18n.CookieLocaleResolver"/>  
+  <!-- 总错误处理 -->  
+  <bean id="exceptionResolver" class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver"> 
+    <property name="defaultErrorView"> 
+      <value>/error/500</value> 
+    </property>  
+    <property name="defaultStatusCode"> 
+      <value>500</value> 
+    </property>  
+    <property name="warnLogCategory"> 
+      <value>org.springframework.web.servlet.handler.SimpleMappingExceptionResolver</value> 
+    </property> 
+  </bean>  
+  <bean id="multipartResolver" class="com.modules.listener.CustomMultipartResolver"> 
+    <property name="maxUploadSize" value="104857600"/>  
+    <property name="maxInMemorySize" value="4096"/> 
+  </bean> 
+</beans>

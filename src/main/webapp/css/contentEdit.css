@@ -1,0 +1,203 @@
+#mainModal {
+	width: 1070px;
+	height: 608px;
+	overflow: hidden;
+}
+#myModal .modal-dialog {
+	width: 800px;
+	/*height: 400px;*/
+}
+#mainModal .ibox-content {
+	max-height: 570px!important;
+	padding: 10px 20px 5px 20px;
+}
+.modal-open .modal .ibox-content {
+	max-height: 550px!important;
+	padding: 10px 20px 5px 20px;
+}
+.fn-ellip-2 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;/**可改为其他数字**/
+    overflow: hidden;
+}
+.fn-center {
+	text-align: center;
+}
+/* 清理浮动 */
+.fn-clear:after {
+    visibility:hidden;
+    display:block;
+    font-size:0;
+    content:" ";
+    clear:both;
+    height:0;
+}
+.fn-clear {
+    zoom:1; /* for IE6 IE7 */
+}
+/**
+ * webuploader
+**/
+.webuploader-container {
+	position: relative;
+}
+.webuploader-element-invisible {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px,1px,1px,1px);
+}
+.webuploader-pick {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.webuploader-pick-disable {
+	opacity: 0.6;
+	pointer-events:none;
+}
+.ui-button-orange {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	cursor: pointer;
+	font-size: 14px;
+	font-family: inherit;
+	font-weight: bold;
+	border-radius: 2px;
+	padding: 0 20px;
+	background-image: none;
+	height: 30px; 
+	width: 100px!important;
+	line-height: 30px;
+	color: #fff;
+	border: 1px solid #F67823;
+	background-color: #F67823;
+}
+.ui-button-orange:hover {
+	border: 1px solid #FF7E27;
+	background-color: #FF7E27;
+	color: #fff;
+}
+.ui-button-orange:active {
+	border: 1px solid #ED7524;
+	background-color: #ED7524;
+	box-shadow: 1px 1px 3px #DB5A58 inset;
+}
+
+.J_edit_form {
+	border: 1px solid #e7eaec;
+	margin: 0;
+	border-top: 0;
+	padding-top: 20px;
+}
+
+.J_contentWrap {
+
+}
+.J_contentWrap .J_colorPick ul {
+    width: 400px;
+    height: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.J_contentWrap .J_colorPick{border: 1px solid #e7eaec; border-bottom: 0;border-top: 0;width: 100%; height:40px;}
+.J_contentWrap .J_colorPick ul li{margin-top:12px;margin-left:10px;}
+.J_contentWrap .J_colorPick ul li.trans{transition: all 0.2s ease 0s;}
+.J_contentWrap .J_colorPick ul li{width:18px; height:18px; display:inline-block; float:left; border-radius:2px; cursor:pointer;color:#fff;}
+.J_contentWrap .J_colorPick ul li.bgc01{ background-color:#c53f46;}
+.J_contentWrap .J_colorPick ul li.bgc02{ background-color:#ffcb15;}
+.J_contentWrap .J_colorPick ul li.bgc03{ background-color:#ffa921;}
+.J_contentWrap .J_colorPick ul li.bgc04{ background-color:#fde800;}
+.J_contentWrap .J_colorPick ul li.bgc05{ background-color:#87c943;}
+.J_contentWrap .J_colorPick ul li.bgc06{ background-color:#129527;}
+.J_contentWrap .J_colorPick ul li.bgc07{ background-color:#00589c;}
+.J_contentWrap .J_colorPick ul li.bgc08{ background-color:#009e96;}
+.J_contentWrap .J_colorPick ul li.bgc09{ background-color:#aa89bd;}
+.J_contentWrap .J_colorPick ul li.bgcBtn{ background:none; z-index:9;}
+.J_contentWrap .J_colorPick ul li.bgcBtn strong{background-color:#5faaff; text-align:center; line-height:15px; font-size:16px;}
+.J_contentWrap .J_colorPick ul li.trans:hover{box-shadow: 1px 1px 4px #444 inset, 0 0 5px #60d0ff;transform: scale(1.1);}
+.colorpicker {
+	z-index: 9999;
+}
+.J_con {
+	margin: 0;
+	width: 1028px;
+}
+.J_con .md {
+	border: 1px solid #e7eaec;
+	height: 420px;
+	padding: 0;
+	float: left;
+}
+.J_con .m1 {
+	width: 178px;
+}
+.J_con .m2 {
+	border-left: 0;
+	border-right: 0;
+	width: 400px;
+}
+.J_con .m3 {
+	padding-top: 8px;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 450px;
+}
+.J_listTab {
+	list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.J_listTab li {
+	border-bottom: 1px solid #e8e8e8;
+}
+.J_listTab li a {
+	display: block;
+	padding: 10px 0px 10px 10px;
+	color: #333;
+}
+.J_listTab li.curt a {
+	border-right: 4px solid #55a7e3;
+	color: #0474c8;
+}
+.J_conpart {
+	position: relative;
+	padding: 6px;
+	height: 420px;
+}
+.J_conpart .zitem {
+	cursor: pointer;
+	padding: 10px 0px;
+	border-bottom: 1px solid #e8e8e8;
+}
+.J_conpart .zitem:last-child {
+	border-bottom: 0;
+}
+.J_ztab .nav-tabs > li > a {
+	z-index: 99;
+}
+.J_ztab .tabs-container .nav-tabs {
+	
+}
+.J_ztab .tabs-container .tab-pane .panel-body {
+	border: 0;
+	padding: 0;
+}
+
+.edui-default .edui-editor {
+	border: 1px solid #e7eaec;
+}
+.edui-default .edui-editor-bottomContainer td {
+	border-top: 1px solid #e7eaec;
+}
+#J_excelUploadS {
+	height: 20px !important;
+	width: 20px !important;
+}

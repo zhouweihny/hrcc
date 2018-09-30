@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<title></title>
+<link rel="stylesheet" href="ui/css/weui/weui.css">
+<link rel="stylesheet" href="ui/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="ui/swiper/swiper.min.css">
+<link rel="stylesheet" href="ui/common.css?v=201511171953">
+<style type="text/css">
+body {
+    background: #E8E8E8;
+}
+.J_imgWrap {
+    position: relative;
+    border-bottom: 1px solid #DEDEDE;
+    background: #fff;
+}
+#J_swiperWrap {
+    margin-bottom: -20px;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide .J_items {
+    width: 60%;
+    height: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide .J_items img {
+    width: 100%;
+    height: 100%;
+}
+.J_imgWrap .J_tit {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+    z-index: 99;
+    position: relative;
+    bottom: 10px;
+}
+.J_imgWrap .J_tit:after {
+    visibility:hidden;
+    display:block;
+    font-size:0;
+    content:" ";
+    clear:both;
+    height:0;
+}
+.J_imgWrap .J_price, .J_imgWrap .J_swiper_nav {
+    z-index: 10;
+    font-size: 14px;
+}
+.J_imgWrap .J_price {
+    float: left;
+    color: #FE0808;
+}
+.J_imgWrap .J_price span {
+    font-size: 22px;
+}
+.J_imgWrap .J_swiper_nav {
+    float: right;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #BABABA;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+}
+.J_imgWrap .J_swiper_nav .cur {
+    font-size: 20px;
+}
+.J_baseInfo {
+    padding: 10px;
+    background: #fff;
+}
+.J_baseInfo .J_medName {
+    font-size: 17px;
+    font-weight: normal;
+}
+.J_baseInfo .J_medName .J_specification {
+    display: inline-block;
+    margin-left: 10px;
+}
+.J_baseInfo .J_attention {
+    color: #FE0808;
+    margin: 4px 0 8px;
+}
+.J_baseInfo .J_feature span {
+    display: inline-block;
+    padding: 4px 10px;
+    color: #fff;
+    margin: 0 6px 10px 0;
+    border-radius: 3px;
+}
+.J_baseInfo .J_feature span:nth-child(1), .J_baseInfo .J_feature span:nth-child(4n+1) {
+    background: #42C1EA;
+}
+.J_baseInfo .J_feature span:nth-child(2), .J_baseInfo .J_feature span:nth-child(4n+2) {
+    background: #EE5361;
+}
+.J_baseInfo .J_feature span:nth-child(3), .J_baseInfo .J_feature span:nth-child(4n+3) {
+    background: #7A58B3;
+}
+.J_baseInfo .J_feature span:nth-child(4), .J_baseInfo .J_feature span:nth-child(4n+4) {
+    background: #4DD1A7;
+}
+.J_detailInfo {
+    background: #fafafa;
+    margin-top: 10px;
+}
+.J_detailInfo h3 {
+    font-size: 17px;
+    font-weight: normal;
+    background: #fff;
+    padding: 6px 10px;
+}
+.J_detailInfo .J_detailInfo_table {
+    padding: 10px;
+}
+.J_detailInfo .J_detailInfo_table tr {
+    background: #FAFAFA;
+}
+.J_detailInfo .J_detailInfo_table tr td {
+    padding: 5px 0 5px 7px;
+    border-bottom: 1px solid #fff;
+}
+.J_detailInfo .J_detailInfo_table tr td:nth-of-type(1) {
+    width: 25%!important;
+    padding: 5px 0!important;
+    text-align: justify!important;
+    text-align-last: justify!important;
+    vertical-align: top!important;
+}
+</style>
+</head>
+<body class="zui">
+
+<div class="J_imgWrap" id="J_imgWrap">
+    <!-- Swiper -->
+    <div id="J_swiperWrap">
+        
+    </div>
+
+    <div class="J_tit">
+        <div class="J_price">
+            ￥<span>13.00</span>
+        </div>
+        <div class="J_swiper_nav">
+            <span class="cur">1</span>
+            <span class="total">/&nbsp;4</span>
+        </div>
+    </div>
+</div>
+
+<div class="J_baseInfo">
+    <h3 class="J_medName"><span class="J_cname">感康复方氨酚烷胺片</span><span class="J_specification">12片</span></h3>
+
+    <p class="J_attention">
+        缓解普通感冒及流行性感冒引起的发热、头痛、 四肢酸痛、打喷嚏、流鼻涕、鼻塞、咽痛等症状
+    </p>
+
+    <div class="J_feature">
+        <span>医保医保</span>
+        <span>正品</span>
+        <span>特殊殊</span>
+        <span>保健保健保健</span>
+        <span>保健</span>
+        <span>保健</span>
+        <span>保健</span>
+        <span>保健</span>
+        <span>保健</span>
+    </div>
+</div>
+
+<div class="J_detailInfo">
+    <h3>产品说明</h3>
+    <table class="J_detailInfo_table" cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tbody>
+            <tr>
+                <td class="J_tbl_left">通用名称：</td>
+                <td>复方氨酚烷胺片</td>
+            </tr>
+            <tr>
+                <td class="J_tbl_left">生产企业：</td>
+                <td>吉林省吴太感康药业有限公司</td>
+            </tr>
+            <tr>
+                <td class="J_tbl_left">商品规格：</td>
+                <td>12片</td>
+            </tr>
+            <tr>
+                <td class="J_tbl_left">适应症：</td>
+                <td>适用于缓解普通感冒及流行性感冒引起的发热、头痛、四肢酸痛、打喷嚏、流鼻涕、鼻塞、咽痛等症状。</td>
+            </tr>
+            <tr>
+                <td class="J_tbl_left">剂型：</td>
+                <td>片剂</td>
+            </tr>
+            <tr>
+                <td class="J_tbl_left">成分：</td>
+                <td>
+                    本品为复方药剂,每片含对乙氨基酚250毫克，盐酸金刚烷胺100毫克，人工牛黄10毫克，咖啡因15 毫克，马来酸氯苯那敏2毫克。辅料为：淀粉、糖粉硬脂酸镁。
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<textarea class="fn-hide" id="T_swiper">
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        {{#each this}}
+        <div class="swiper-slide">
+            <div class="J_items">
+                <img src="{{url}}">
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
+</textarea>
+
+<!--图片展示-->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="preview" class="fn-hide">
+
+</div>
+
+<script src="ui/js/jquery/1.8.3/jquery.js"></script>
+<script src="ui/js/weui/weui.js"></script>
+<script src="ui/js/handlebars/handlebars.js"></script>
+<script src="ui/photoswipe/photoswipe.js"></script>
+<script src="ui/swiper/swiper.min.js"></script>
+<script src="./../internal.js"></script>
+<script src="./../ueditor.parse.js"></script>
+<script src="ui/common.js?v=201511171953"></script>
+<script>
+
+var imgArr = null;
+var _J_swiperWrap = $("#J_swiperWrap");
+
+$(function(){
+
+    document.getElementById('preview').innerHTML = editor.getContent();
+    uParse('#preview',{
+        rootPath : '../../',
+        chartContainerHeight:500
+    })
+    dialog.oncancel = function(){
+        document.getElementById('preview').innerHTML = '';
+    }
+
+    //处理获取的数据
+    $(".J_price span").text($(".J_price_t").text());
+    $(".J_medName .J_cname").text($(".J_medName_t").text());
+    $(".J_specification").text($(".J_specification_t").text());
+    $(".J_attention").text($(".J_attention_t").text());
+
+    //卖点
+    var arr2 = [];
+    $(".J_feature_t").find("li").each(function(){
+        var _str = '<span>'+$(this).find("p").text()+'</span>';
+        arr2.push(_str);
+    })
+    $(".J_feature").html(arr2.join(""));
+
+    //产品介绍
+    var arr3 = [];
+    $(".J_detailInfo_table_t").find("tr").each(function(){
+        var _str2 = '<tr> <td>'+$(this).find("td:eq(0)").text()+'</td> <td>'+$(this).find("td:eq(1)").text()+'</td> </tr>';
+        arr3.push(_str2);
+    })
+    $(".J_detailInfo_table").html(arr3.join(""));
+
+    //轮播图
+    var tempImg = $(".J_swiperWrap_t").find("img"),
+        arr = [];
+    tempImg.each(function(){
+        var attr = {};
+        attr.url = $(this).attr("src");
+        arr.push(attr);
+    })
+    _J_swiperWrap.temp($("#T_swiper").val(), arr);
+
+    var _h = $(window).height(),
+        _w = $(window).width();
+    _J_swiperWrap.css({"height": _h * 0.33, "width": "375px"});
+
+    _J_swiperWrap.next(".J_tit").find(".J_swiper_nav .total").html("/&nbsp;"+arr.length);
+
+    var _totalImg = _J_swiperWrap.find(".swiper-slide").length;
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        centeredSlides: true,
+        // autoplay: 2500,
+        autoplayDisableOnInteraction: false,
+        loop: true,
+        spaceBetween: 30,
+        onSlideChangeEnd: function(swiper){
+            var _curIndex = swiper.activeIndex > _totalImg ? '1' : swiper.activeIndex;
+            _J_swiperWrap.next(".J_tit").find(".J_swiper_nav .cur").text(_curIndex);
+        }
+    });
+    initImgShow();
+})
+
+function initImgShow(){
+    imgArr = $("#J_swiperWrap").find(".swiper-slide").not(".swiper-slide-duplicate").find("img");
+    imgArr.on("click", function(){
+        openPhotoSwipe($(this));
+    })
+    $("#J_swiperWrap").find(".swiper-slide-duplicate img").on("click", function(){
+        openPhotoSwipe($(".swiper-slide").eq(1));
+    })
+}
+
+var pswp;
+function openPhotoSwipe(obj){
+    var pswpElement = document.querySelectorAll('.pswp')[0];
+    var imgList = [],
+        _index = 0;
+    imgArr.each(function(i){
+        var _src = $(this).attr("src"),
+            _tit = $(this).attr("title");
+        var attr = {
+            src: _src, 
+            // title: _tit,
+            w: 964,
+            h: 1024
+        };
+        imgList.push(attr);
+
+        if(obj){
+            if(obj.attr("src") == _src){
+                _index = i;
+            }
+        }
+    })
+    // define options (if needed)
+    var options = {
+        // history & focus options are disabled on CodePen        
+        history: false,
+        focus: false,
+        showAnimationDuration: 0,
+        hideAnimationDuration: 0,
+        index: _index
+    };
+    pswp = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, imgList, options);
+    pswp.init();
+    pswp.listen('destroy', function() {
+        pswp.close();
+    });
+}
+
+</script>
+</body>
+</html>

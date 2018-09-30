@@ -1,0 +1,1961 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"J_ite",
+				"J_item"
+			],
+			[
+				"G_te",
+				"G_tempS"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"cur",
+				"curTreeId"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"G_",
+				"G_json"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"G_js",
+				"G_jsonS"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"remove",
+				"remvoeClass"
+			],
+			[
+				"zss",
+				"zss	css 注释"
+			],
+			[
+				"tempst",
+				"tempStoreDateJson"
+			],
+			[
+				"sele",
+				"select	Tag"
+			],
+			[
+				"cu",
+				"curTreeId"
+			],
+			[
+				"mo",
+				"modFlag"
+			],
+			[
+				"my",
+				"MyFun"
+			],
+			[
+				"col",
+				"colgroup	Tag"
+			],
+			[
+				"lhy",
+				"lhyyindex"
+			],
+			[
+				"ly",
+				"lhyyindex"
+			],
+			[
+				"lh",
+				"lhyyindex"
+			],
+			[
+				"ge",
+				"getDatas"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"sty",
+				"stype"
+			],
+			[
+				"get",
+				"getZuiStoreD"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"add",
+				"addNum"
+			],
+			[
+				"ti",
+				"ticket"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"set",
+				"setRoute"
+			],
+			[
+				"rout",
+				"routes"
+			],
+			[
+				"_im",
+				"_imgwrap"
+			],
+			[
+				"e",
+				"e5e5e5"
+			],
+			[
+				"_",
+				"_J_AD"
+			],
+			[
+				"_J",
+				"_J_COD"
+			],
+			[
+				"请输",
+				"请输入氨氮"
+			],
+			[
+				"请输入",
+				"请输入COD"
+			],
+			[
+				"clik",
+				"clickFlag"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"pro",
+				"products"
+			],
+			[
+				"t",
+				"title	Attr"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"exclu",
+				"excludeStr"
+			],
+			[
+				"cli",
+				"click"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"clic",
+				"clickFlag"
+			],
+			[
+				"st",
+				"storeid"
+			],
+			[
+				"user",
+				"userid"
+			],
+			[
+				"J",
+				"J_charts"
+			],
+			[
+				"确定",
+				"确定病种"
+			],
+			[
+				"zuiup",
+				"zuiUploadProgressConter"
+			],
+			[
+				"shom",
+				"showMoreItems"
+			],
+			[
+				"new",
+				"newName"
+			],
+			[
+				"z",
+				"zuiTree"
+			],
+			[
+				"zuire",
+				"zui_resS"
+			],
+			[
+				"top",
+				"J_top_tbl"
+			],
+			[
+				"admi",
+				"adminFlag"
+			],
+			[
+				"storetyp",
+				"storetypeid"
+			],
+			[
+				"cursto",
+				"curStoreType"
+			],
+			[
+				"J_max",
+				"J_maxContainer"
+			],
+			[
+				"fon",
+				"font_14"
+			],
+			[
+				"p_",
+				"p_getFileId"
+			],
+			[
+				"tempa",
+				"tempArr2"
+			],
+			[
+				"temp",
+				"tempArr"
+			],
+			[
+				"order",
+				"OrderList"
+			],
+			[
+				"J_addne",
+				"J_addNeWKeyWrap"
+			],
+			[
+				"p_get",
+				"p_getStoreId"
+			],
+			[
+				"_subT",
+				"_subTrLen"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"mrgin",
+				"margin-right"
+			],
+			[
+				"_tem",
+				"_tempArr"
+			],
+			[
+				"_temp",
+				"_tempYear"
+			],
+			[
+				"curs",
+				"curSaleFile"
+			],
+			[
+				"fil",
+				"fileid"
+			],
+			[
+				"store",
+				"storename"
+			],
+			[
+				"coo",
+				"cookieIndexs"
+			],
+			[
+				"to",
+				"totalRows"
+			],
+			[
+				"zui",
+				"zuiSearch"
+			],
+			[
+				"inde",
+				"indexsFlag"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"tree",
+				"treeNode"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"tit",
+				"title"
+			],
+			[
+				"cl",
+				"clickFlag"
+			],
+			[
+				"ste",
+				"stepNumber"
+			],
+			[
+				"tota",
+				"total1"
+			],
+			[
+				"aja",
+				"ajax1"
+			],
+			[
+				"T_",
+				"T_tpl_1"
+			],
+			[
+				"J_",
+				"J_formSearch"
+			],
+			[
+				"data",
+				"dataItems"
+			],
+			[
+				"tre",
+				"treeNode"
+			],
+			[
+				"path",
+				"pathname"
+			],
+			[
+				"opt",
+				"option	Tag"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"clo",
+				"closePopup"
+			],
+			[
+				"bil",
+				"billAvtime"
+			],
+			[
+				"curt",
+				"curBillStatus"
+			],
+			[
+				"ca",
+				"calendarPickFlag"
+			],
+			[
+				"J_ti",
+				"J_tip_icon"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"tem",
+				"tempComArr"
+			],
+			[
+				"ind",
+				"_index"
+			],
+			[
+				"log",
+				"loginType"
+			],
+			[
+				"remo",
+				"removeByIndex"
+			],
+			[
+				"fl",
+				"flyer"
+			],
+			[
+				"page",
+				"pageParam"
+			],
+			[
+				"form",
+				"formStr"
+			],
+			[
+				"show",
+				"showType"
+			],
+			[
+				"sho",
+				"shwoType"
+			],
+			[
+				"fac",
+				"fac_keywords"
+			],
+			[
+				"rang",
+				"rangySelectionText"
+			],
+			[
+				"ran",
+				"rangySelectionText"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"init",
+				"initPriceCharts"
+			],
+			[
+				"ord",
+				"OrderList"
+			],
+			[
+				"row",
+				"rowspan"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"pl",
+				"playingFlag"
+			],
+			[
+				"ani",
+				"animArr"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"sli",
+				"slideUp"
+			],
+			[
+				"cop",
+				"compared"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/E/wxxcx/mpvuetest/src/pages/index/index.vue",
+			"settings":
+			{
+				"buffer_size": 2040,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/wxxcx/mpvuetest/src/pages/actionSheet/index.vue",
+			"settings":
+			{
+				"buffer_size": 2250,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/wxxcx/mpvuetest/src/pages/actionSheet/store.js",
+			"settings":
+			{
+				"buffer_size": 429,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/wxxcx/mpvuetest/src/app.json",
+			"settings":
+			{
+				"buffer_size": 300,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/Downloads/ViewerJS-latest/viewerjs-0.5.8/ViewerJS/index.html",
+			"settings":
+			{
+				"buffer_size": 41855,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/wxxcx/mpvuetest/src/main.js",
+			"settings":
+			{
+				"buffer_size": 166,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "_J_pswpImg = curSection.find(\".J_pswpImg\");//$('#T_add .J_pswpImg');\n_J_pswpImg.each(function(){\n    var _src = $(this).attr(\"src\").substr(5);\n    if(\"/css/img/closebtn.png\" !==_src){\n    	arr.push(_src);\n    }else{\n    	arr.push('');\n    }\n})",
+			"settings":
+			{
+				"buffer_size": 243,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/wxxcx/mpvuetest/src/components/card.vue",
+			"settings":
+			{
+				"buffer_size": 187,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"html ",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"vue",
+				"Set Syntax: Vue Component"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"insall",
+				"Package Control: Install Package"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"removep",
+				"Package Control: Remove Package"
+			],
+			[
+				"removp",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ht",
+				"HTMLPrettify"
+			],
+			[
+				"htl",
+				"HTMLPrettify"
+			],
+			[
+				"Snippet: c",
+				"Snippet: custom-footer"
+			],
+			[
+				"jaca",
+				"Set Syntax: JavaScript (Rails)"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"md",
+				"Set Syntax: Markdown"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package→删除程序包"
+			]
+		],
+		"width": 504.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Administrator/Desktop/sixs.html",
+		"/C/Users/Administrator/Desktop/ledger.html",
+		"/E/AppServ/www/test/prevDate.html",
+		"/E/workspace/ws/src/main/webapp/js/plugins/jquery-weui/lib/wxzui_common.js",
+		"/C/Users/Administrator/Desktop/report.html",
+		"/E/wxxcx/mpvuetest/src/App.vue",
+		"/E/wxxcx/mpvuetest/static/weui.css",
+		"/E/wxxcx/mpvuetest/node_modules/_webpack-sources@1.2.0@webpack-sources/lib/CachedSource.js",
+		"/E/wxxcx/mpvuetest/index.html",
+		"/E/wxxcx/mpvuetest/src/main.js",
+		"/D/Downloads/ViewerJS-latest/viewerjs-0.5.8/AGPL-3.0.txt",
+		"/E/wxxcx/mpvuetest/src/pages/index/main.js",
+		"/E/wxxcx/mpvuetest/src/utils/index.js",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/fxlhyydc/zlist.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/cmscontent/lhyyedit.ftl",
+		"/E/workspace/cc/src/main/webapp/js/plugins/select2/js/select2.full.js",
+		"/E/workspace/cc/src/main/webapp/js/plugins/select2/js/select2.js",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/diseaseanalysisvo/diseaselist.ftl",
+		"/D/Downloads/sku-20140802/sku/sku.html",
+		"/D/Downloads/sku-20140802/sku/js/shBrushJScript.js",
+		"/D/Downloads/sku-20140802/sku/js/shCore.js",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/purchasedetail/list.ftl",
+		"/E/workspace/cc/src/main/webapp/js/my.js",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/cmscontent/contentEidt.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/purchase/list.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/fxtreemeta/list.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/fxlhyydc/list.ftl",
+		"/E/workspace/cc/src/main/webapp/js/wx/js/wxzui_common.js",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/wxfx/wxlhyyjz.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/fxsaleanalysis/z3table.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/fxorderfx/table.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/wxfx/wxxfzfxpm.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/wxfx/wxlhyyspxq.ftl",
+		"/E/workspace/cc/src/main/webapp/js/wx/css/wxzui_common.css",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/wxfx/wxhy.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/wxfx/wxxfzfx.ftl",
+		"/E/AppServ/www/test/xyg/xygtest/displacement.html",
+		"/E/workspace/cc/src/main/webapp/js/plugins/jquery-weui/wxzui_common.js",
+		"/E/AppServ/www/test/ouy/js/wxzui_common.js",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/wxfx/wxurlredirect.ftl",
+		"/E/AppServ/www/test/xyg/xygtest/equipment.html",
+		"/E/workspace/cc/src/main/webapp/js/wx/js/jquery-weui/js/jquery-weui.js",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/wxfx/wxxfzfx.back",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/fxsaleanalysis/eliminatelist.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/diseaseanalysisvo/list.ftl",
+		"/E/workspace/demo/src/main/resources/templates/wx/store.ftl",
+		"/E/workspace/cc/src/main/webapp/js/wx/js/director.js",
+		"/E/workspace/cc/target/classes/com/modules/controller/wxfx/WxfxController.class",
+		"/E/workspace/cc/.classpath",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/fximpsaledata/analysis.ftl",
+		"/D/Downloads/director-master/build/director.js",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/wxfx/binding.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/fxsaleanalysis/gmllist.ftl",
+		"/D/Downloads/director-master/lib/director.js",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/fxtreestore/zlist.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/indexs.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/cmscontent/lhyylist.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/fxorderfx/list2.ftl",
+		"/E/workspace/demo/target/classes/templates/wx/store.ftl",
+		"/E/AppServ/www/test/xyg/xygtest/store.html",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/fxcomname/druglist.ftl",
+		"/E/workspace/cc/src/main/webapp/js/plugins/jquery-weui/wxzui_common.css",
+		"/E/workspace/cc/src/main/webapp/css/bootstrap.min.css",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/wxfx/wxxfzfx.back.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/wxfx/wxxz.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/fxtreestore/zlists.ftl",
+		"/D/车载music/最新/木小雅 - 可能否.lrc",
+		"/D/Downloads/front-special-effects-master/table-fixed/js/main.js",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/fxmetadata/list.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/cmscontent/list.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/cmscontent/lhyypage.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/bill/list.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/fximpsaledata/list.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/fxdrugtype/list.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/factory/nlist.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/drugpromotion/purchaselist.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/drugpromotion/list.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/cmscontent/table.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/cmscategory/category.ftl",
+		"/E/AppServ/www/test/xyg/xygtest/index.html",
+		"/D/Documents/WeChat Files/zhouweihny/Files/index(1).html",
+		"/E/AppServ/www/test/xyg/xygtest/json/tableData.json",
+		"/E/workspace/demo/src/main/resources/templates/wx/cgsj.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/cmscontent/lhyypage.bak",
+		"/E/workspace/cc/src/main/webapp/js/plugins/ueditor/ueditor.config.js",
+		"/E/workspace/ws/src/main/webapp/WEB-INF/view/cmscontent/contentEidt.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/login.ftl",
+		"/E/AppServ/www/test/ouy/index.html",
+		"/E/AppServ/www/test/ouy/ywcs.html",
+		"/E/workspace/ydb/src/main/webapp/newui/ui/iscroll/4.2.5/pullToRefresh.js",
+		"/D/Documents/WeChat Files/zhouweihny/Files/water.html",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/fxtreestore/list.ftl",
+		"/E/AppServ/www/test/ouy/cszb.html",
+		"/E/workspace/demo/src/main/resources/templates/xssj/list.ftl",
+		"/E/workspace/demo/src/main/resources/templates/kcsj/list.ftl",
+		"/E/workspace/demo/src/main/resources/templates/index.ftl",
+		"/E/workspace/demo/src/main/resources/templates/login.ftl",
+		"/E/workspace/demo/src/main/resources/templates/cgsj/list.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/fximpsaledata/lists.ftl",
+		"/E/workspace/demo/src/main/resources/static/js/my.js",
+		"/E/workspace/demo/src/main/resources/templates/gys/list.ftl",
+		"/E/workspace/demo/src/main/resources/templates/user/list.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/fxsalefile/list.ftl",
+		"/E/workspace/demo/src/main/resources/templates/user/info.ftl",
+		"/E/workspace/demo/src/main/resources/templates/user/table.ftl",
+		"/E/workspace/demo/src/main/resources/templates/wsp/binding.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/ws/billpagesub.ftl",
+		"/E/workspace/wx/src/main/webapp/js/my.js",
+		"/E/workspace/ws/src/main/webapp/js/my.js",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/ws/binding.ftl",
+		"/E/workspace/demo/target/classes/templates/wsp/billdetailpage.ftl",
+		"/E/workspace/demo/src/main/resources/templates/wsp/billpagesub.ftl",
+		"/E/workspace/demo/src/main/resources/templates/wsp/billdetailpage.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/user/list.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/fxtreestore/managementlist.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/fxsaleanalysis/xklist.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/drugsupplier/info.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/autocompare/list.ftl",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/drugpromotion/info.ftl",
+		"/D/apache-maven/conf/settings.xml",
+		"/C/Users/Administrator/.m2/settings.xml",
+		"/E/AppServ/www/test/xyg/js/handlebars.js",
+		"/E/AppServ/www/test/xyg/store.html",
+		"/E/workspace/cc/src/main/webapp/WEB-INF/view/wsp/billpage_item.ftl",
+		"/E/AppServ/www/test/xyg/js/mobiscroll/mobiscroll.zcore.js",
+		"/E/AppServ/www/test/ouy/css/wxzui_common.css",
+		"/E/AppServ/www/test/xyg/cszb.html",
+		"/C/Users/Administrator/AppData/Local/Temp/360zip$Temp/360$3/tableData.json"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"*.ftl",
+			"*",
+			"*.html",
+			"*.ftl",
+			"*",
+			"*.ftl",
+			"*",
+			"*.ftl",
+			"*",
+			"*.ftl",
+			"*",
+			"*.ftl",
+			"",
+			"*.ftl",
+			"*",
+			"*.ftl",
+			"*.js,*.ftl",
+			"*.ftl",
+			"*.js,*.ftl",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"J_pswpImg",
+			"GetDateStr",
+			"_sdate",
+			"J_quickwrap",
+			"entry",
+			"src",
+			"vuex",
+			"G_tempS",
+			"console",
+			"addg",
+			"J_conWrap",
+			"J_subWrap",
+			"J_step2",
+			"J_step1",
+			"J_conWrap",
+			"T_top_tpl",
+			"showPreviw",
+			"zbtnSearch",
+			"removeByValue",
+			"removeby",
+			"J_del_items",
+			"#supplierid",
+			"select2:select",
+			"J_randomBtn",
+			"zbtnSearch",
+			"J_desWrap",
+			"J_randomBtn",
+			"J_itemsWrap",
+			"ztree",
+			"J_itemsWrap",
+			"selectOnClose",
+			"SelectOnClose",
+			"multiple",
+			"select2",
+			"multiple",
+			"supplierid",
+			"multiple",
+			"supplierid",
+			"options",
+			"escapeMarkup",
+			"clickFlag",
+			"J_name",
+			"subDatas",
+			"getDetail",
+			"replace(",
+			"curTreeId",
+			"getzTree",
+			"zuiTree",
+			"J_treeWrap",
+			"nextStep",
+			"btn-danger",
+			"input",
+			"zuiTree",
+			"病种分类树",
+			"console",
+			"join",
+			"subDatas",
+			"checkAll",
+			"arrayCombine",
+			"list1",
+			"deepCoby",
+			"zbtnSearch",
+			"supplierid",
+			"select2",
+			"平局",
+			"J_leftTit",
+			"T_tbl_bodyS",
+			"initzScroll(function(",
+			"J_t_l_tit",
+			"联合用药订单数",
+			"前五十排名",
+			"json.data.splice(0, curRankType)",
+			"console",
+			"G_json",
+			"myScroll",
+			"refresh",
+			"T_tbl_body",
+			"initzScroll",
+			"T_tbl_body",
+			"J_leftTit",
+			"wxzui_common",
+			"节点",
+			"T_tbl_body",
+			"initzScroll",
+			"scrollAreaEl",
+			"T_cards",
+			"T_tbl_body",
+			"OrderList",
+			"T_cards",
+			"T_tbl_body",
+			"zbs",
+			"联合用药评估",
+			"curType",
+			"curRankType",
+			"J_statusPop",
+			"前五排名",
+			"tips",
+			"J_noword",
+			"详情",
+			"J_swiperWrap",
+			"showDetail",
+			"curWordId",
+			"showDetail",
+			"T_swiperWrap",
+			"T_detail",
+			"J_showDetail",
+			"T_swiperWrap",
+			"T_tbl_body",
+			"$(\"#J_tbl_body\").temp($(\"#T_",
+			"fxorderfx",
+			"$(\"#J_subData\").off(\"click\").on(\"",
+			"$(\"#J_statusPop\")",
+			"curRankType",
+			"G_json",
+			"lStorage",
+			"J_statusPop",
+			"$(\"#J_tbl_body\").temp($(\"#T_",
+			"J_sortBtn",
+			"$(\"#J_tbl_body\").tem",
+			"J_statusPop",
+			"retFixS",
+			"J_statusPop",
+			"retFixSD",
+			"<p>前十排名</p>",
+			"postj",
+			"retNewZb",
+			"retFixSD",
+			"J_showbefore"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"/js/wx/",
+			"J_router_search",
+			"",
+			"Zepto",
+			"集客",
+			"npm",
+			"area: '100%',",
+			"javascript:;",
+			"",
+			"http://59.55.142.195:6060/lpz/uploads/",
+			"pageParam",
+			".zuislides",
+			"img",
+			"_this",
+			"",
+			".zui .zuiDrugList .J_keshi span",
+			"json",
+			"images",
+			"${request.contextPath}/js/plugins/colorpicker/images/",
+			".J_contentWrap .J_colorPick ul li",
+			"$",
+			"_jQ(",
+			"$",
+			"picurl",
+			"",
+			"<!DOCTYPE html>",
+			"项目",
+			"积分",
+			"",
+			"设备",
+			"客户",
+			"Customer",
+			"客户",
+			"用户",
+			"卡片",
+			"Card",
+			"角色",
+			"\"../",
+			"javascript:;",
+			"",
+			"========================================================================A=",
+			"--------------------------------------------A--",
+			"-------------------------A--",
+			"",
+			"Hui_img",
+			"img",
+			"",
+			"downPage/5/",
+			"downPage/3/",
+			"downPage/2/",
+			"downPage/3/",
+			"countmultirepsalesyear",
+			"countmultirepsalesseason",
+			"countmultirepsalesmonth",
+			"countrepsalesmonth",
+			"countrepsalesseason",
+			"countrepsalesyear",
+			"downStor",
+			"if(ajaxCount == 6)",
+			"治疗原则",
+			"",
+			"width=\"40\"",
+			"mui-col-xs-3",
+			"width=\"40\"",
+			"result_prompt(0, ",
+			"if(ajaxCount2 == 11){",
+			"",
+			"$(\"#J_yz_detail\")",
+			"if(ajaxCount2 == 10){",
+			"",
+			"patientid",
+			"<span class=\"items\">",
+			"ui/",
+			"../theme/img/checkList_demo.png",
+			"_$thelist",
+			"div",
+			"<li class=\"mui-ellipsis\">",
+			"<li class=\"mui-elli\">",
+			"",
+			"../newui/ui/img/1.png",
+			"zuiTotast",
+			"正在加载...",
+			"松开刷新...",
+			"上拉刷新...",
+			"下拉刷新...",
+			"tips"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "E:\\wxxcx\\mpvuetest"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/E/wxxcx/mpvuetest/src/pages/index/index.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2040,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								906,
+								906
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 285.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/E/wxxcx/mpvuetest/src/pages/actionSheet/index.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								171,
+								171
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 19.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/E/wxxcx/mpvuetest/src/pages/actionSheet/store.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 429,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								164,
+								164
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "cp936",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/E/wxxcx/mpvuetest/src/app.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								84,
+								84
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "cp936",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/D/Downloads/ViewerJS-latest/viewerjs-0.5.8/ViewerJS/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41855,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1783,
+								1786
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "cp936",
+							"is_xml": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6790.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/E/wxxcx/mpvuetest/src/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								166,
+								166
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 243,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								243,
+								243
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "",
+							"is_xml": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/E/wxxcx/mpvuetest/src/components/card.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								123,
+								127
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "cp936",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"my",
+				"js\\my.js"
+			],
+			[
+				"sele",
+				"js\\plugins\\select2\\js\\select2.js"
+			],
+			[
+				"select",
+				"js\\plugins\\select2\\js\\select2.full.js"
+			],
+			[
+				"wxzui",
+				"js\\wx\\js\\wxzui_common.js"
+			],
+			[
+				"wxzui_comm",
+				"js\\wx\\css\\wxzui_common.css"
+			],
+			[
+				"wxzui_",
+				"js\\wx\\js\\wxzui_common.js"
+			],
+			[
+				"wxzuico",
+				"js\\plugins\\jquery-weui\\wxzui_common.js"
+			],
+			[
+				"wxcommon.js",
+				"js\\wx\\js\\wxzui_common.js"
+			],
+			[
+				"wxzui_co",
+				"js\\wx\\js\\wxzui_common.js"
+			],
+			[
+				"wxzi",
+				"js\\wx\\js\\wxzui_common.js"
+			],
+			[
+				"wxlhyyspxq",
+				"WEB-INF\\view\\wxfx\\wxlhyyspxq.ftl"
+			],
+			[
+				"wx_",
+				"js\\wx\\js\\wxzui_common.js"
+			],
+			[
+				"wx",
+				"js\\plugins\\jquery-weui\\wxzui_common.js"
+			],
+			[
+				"wxxfzfx",
+				"WEB-INF\\view\\wxfx\\wxxfzfx.ftl"
+			],
+			[
+				"di",
+				"js\\wx\\js\\director.js"
+			],
+			[
+				"diseaseanalysisvo",
+				"WEB-INF\\view\\diseaseanalysisvo\\list.ftl"
+			],
+			[
+				"analysis",
+				"WEB-INF\\view\\fximpsaledata\\analysis.ftl"
+			],
+			[
+				"lhyyedit",
+				"WEB-INF\\view\\cmscontent\\lhyyedit.ftl"
+			],
+			[
+				"wx_comm",
+				"js\\plugins\\jquery-weui\\wxzui_common.css"
+			],
+			[
+				"common",
+				"js\\plugins\\jquery-weui\\wxzui_common.js"
+			],
+			[
+				"fxorderfx",
+				"WEB-INF\\view\\fxorderfx\\list2.ftl"
+			],
+			[
+				"bootstrap.css",
+				"css\\bootstrap.min.css"
+			],
+			[
+				"fxtreemeta",
+				"WEB-INF\\view\\fxtreemeta\\list.ftl"
+			],
+			[
+				"zli",
+				"WEB-INF\\view\\fxtreestore\\zlists.ftl"
+			],
+			[
+				"zlist",
+				"WEB-INF\\view\\fxtreestore\\zlists.ftl"
+			],
+			[
+				"pulltorefresh.js",
+				"src\\main\\resources\\static\\js\\wx\\js\\iscroll\\4.2.5\\pullToRefresh.js"
+			],
+			[
+				"cg",
+				"src\\main\\resources\\templates\\wx\\cgsj.ftl"
+			],
+			[
+				"fxtreest",
+				"WEB-INF\\view\\fxtreestore\\list.ftl"
+			],
+			[
+				"fxtreestore",
+				"WEB-INF\\view\\fxtreestore\\list.ftl"
+			],
+			[
+				"wxzui_common",
+				"webapp\\js\\plugins\\jquery-weui\\wxzui_common.js"
+			],
+			[
+				"binding",
+				"webapp\\WEB-INF\\view\\ws\\binding.ftl"
+			],
+			[
+				"ha",
+				"js\\handlebars.js"
+			],
+			[
+				"vue",
+				"node_modules\\vue\\dist\\vue.js"
+			],
+			[
+				".eslintrc.js",
+				".eslintrc.js"
+			],
+			[
+				"hel",
+				"js\\handlebars.js"
+			],
+			[
+				"comm",
+				"js\\wxzui_common.js"
+			],
+			[
+				"mobiscroll",
+				"js\\mobiscroll\\mobiscroll.zcore.js"
+			],
+			[
+				"cart",
+				"WEB-INF\\view\\purchase\\shoppingCart.ftl"
+			],
+			[
+				"sty",
+				"css\\style.css"
+			],
+			[
+				"jquery.table2excel",
+				"js\\plugins\\jquery.table2excel\\jquery.table2excel.js"
+			],
+			[
+				"ver",
+				"WEB-INF\\view\\space\\varietyreview.ftl"
+			],
+			[
+				"xklist",
+				"WEB-INF\\view\\fxsaleanalysis\\xklist.ftl"
+			],
+			[
+				"sel",
+				"js\\plugins\\select2\\js\\select2.js"
+			],
+			[
+				"m",
+				"js\\my.js"
+			],
+			[
+				"laydate",
+				"js\\plugins\\layer\\5.0.9\\laydate.js"
+			],
+			[
+				"data",
+				"js\\plugins\\dataTables\\jquery.dataTables_15.js"
+			],
+			[
+				"index",
+				"WEB-INF\\view\\indexs.ftl"
+			],
+			[
+				"inde",
+				"js\\index.js"
+			],
+			[
+				"shop",
+				"WEB-INF\\view\\purchase\\shoppingCart.ftl"
+			],
+			[
+				"handl",
+				"js\\plugins\\handlebars\\handlebars.js"
+			],
+			[
+				"styl",
+				"css\\style.css"
+			],
+			[
+				"intro",
+				"js\\plugins\\introjs\\intro.js"
+			],
+			[
+				"catalog",
+				"WEB-INF\\view\\catalog\\list.ftl"
+			],
+			[
+				"login",
+				"WEB-INF\\view\\login.ftl"
+			],
+			[
+				"my.",
+				"js\\my.js"
+			],
+			[
+				"exedit",
+				"js\\plugins\\ztree\\js\\jquery.ztree.exedit.js"
+			],
+			[
+				"ztreestyle.css",
+				"js\\plugins\\ztree\\css\\zTreeStyle\\zTreeStyle.css"
+			],
+			[
+				"datatable",
+				"js\\plugins\\dataTables\\jquery.dataTables_15.js"
+			],
+			[
+				"handle",
+				"js\\plugins\\handlebars\\handlebars.js"
+			],
+			[
+				"echa",
+				"js\\plugins\\echarts\\echarts.min.js"
+			],
+			[
+				"eliminatelist",
+				"WEB-INF\\view\\fxsaleanalysis\\eliminatelist.ftl"
+			],
+			[
+				"style",
+				"css\\style.css"
+			],
+			[
+				"password",
+				"WEB-INF\\view\\user\\modifypassword.ftl"
+			],
+			[
+				"ajaxcombobox",
+				"js\\plugins\\ajax-combobox\\jquery.ajax-combobox.js"
+			],
+			[
+				"hand",
+				"js\\plugins\\jquery-weui\\js\\handlebars\\handlebars.js"
+			],
+			[
+				"han",
+				"js\\plugins\\jquery-weui\\js\\handlebars\\handlebars.js"
+			],
+			[
+				"var",
+				"WEB-INF\\view\\space\\varietycontrols.ftl"
+			],
+			[
+				"indexs",
+				"WEB-INF\\view\\indexs.ftl"
+			],
+			[
+				"zl",
+				"WEB-INF\\view\\fxzuitree\\list.ftl"
+			],
+			[
+				"ztr",
+				"js\\plugins\\ztree\\js\\jquery.ztree.all.js"
+			],
+			[
+				"fxcomname",
+				"WEB-INF\\view\\fxcomname\\druglist.ftl"
+			],
+			[
+				"lay",
+				"js\\plugins\\layer\\layer.min.js"
+			],
+			[
+				"my.js",
+				"js\\my.js"
+			],
+			[
+				"hadmin",
+				"js\\hAdmin.js"
+			],
+			[
+				"selec",
+				"js\\plugins\\select2\\js\\select2.js"
+			],
+			[
+				"block",
+				"js\\plugins\\blockUI\\jquery.blockUI.js"
+			],
+			[
+				"flu",
+				"WEB-INF\\view\\fximpsaledata\\fluelist.ftl"
+			],
+			[
+				"v",
+				"WEB-INF\\view\\space\\varietyreview.ftl"
+			],
+			[
+				"multiselect",
+				"js\\plugins\\bootstrap-multiselect\\bootstrap-multiselect.js"
+			],
+			[
+				"jquer.cook",
+				"js\\plugins\\cookie\\1.2.0\\jquery.cookie.js"
+			],
+			[
+				"bootstrap.js",
+				"js\\bootstrap.min.js"
+			],
+			[
+				"layer",
+				"js\\plugins\\layer\\layer.min.js"
+			],
+			[
+				"layer.min",
+				"js\\plugins\\layer\\layer.min.js"
+			],
+			[
+				"datatables_15",
+				"js\\plugins\\dataTables\\jquery.dataTables_15.js"
+			],
+			[
+				"jquery.js",
+				"js\\plugins\\ztree\\js\\jquery-1.4.4.min.js"
+			],
+			[
+				"menutree",
+				"WEB-INF\\view\\sysrole\\menutree.ftl"
+			],
+			[
+				"st",
+				"css\\style.css"
+			],
+			[
+				"jquery",
+				"js\\jquery.min.js"
+			],
+			[
+				"layer.min_0.9",
+				"js\\plugins\\layer\\layer.min_0.9.js"
+			],
+			[
+				"hadl",
+				"js\\plugins\\handlebars\\handlebars.js"
+			],
+			[
+				"form",
+				"js\\jquery.form.js"
+			],
+			[
+				"daterangepicker",
+				"js\\plugins\\bootstrap-daterangepicker\\daterangepicker.js"
+			],
+			[
+				"bootstrap-multiselect",
+				"js\\plugins\\bootstrap-multiselect\\bootstrap-multiselect.js"
+			],
+			[
+				"fxitemaddpage",
+				"WEB-INF\\view\\space\\fxitemaddpage.ftl"
+			],
+			[
+				"log",
+				"WEB-INF\\view\\login.ftl"
+			],
+			[
+				"modifypassword",
+				"WEB-INF\\view\\user\\modifypassword.ftl"
+			],
+			[
+				"isc",
+				"js\\plugins\\iscroll\\4.2.5\\iscroll.js"
+			],
+			[
+				"weui",
+				"js\\plugins\\jquery-weui\\js\\jquery-weui\\js\\jquery-weui.js"
+			],
+			[
+				"pull",
+				"js\\plugins\\iscroll\\4.2.5\\pullToRefresh.js"
+			],
+			[
+				"billlistpage",
+				"WEB-INF\\view\\ws\\billlistpage.ftl"
+			],
+			[
+				"pulltorefresh",
+				"js\\plugins\\iscroll\\4.2.5\\pullToRefresh.css"
+			],
+			[
+				"jquery-weui.js",
+				"js\\plugins\\jquery-weui\\js\\jquery-weui\\js\\jquery-weui.js"
+			],
+			[
+				"jquery-weui",
+				"js\\plugins\\jquery-weui\\js\\jquery-weui\\css\\jquery-weui.css"
+			],
+			[
+				"bindm",
+				"WEB-INF\\view\\weixin\\bindMobile.ftl"
+			],
+			[
+				"l",
+				"WEB-INF\\view\\login.ftl"
+			],
+			[
+				"zui",
+				"js\\plugins\\jquery-weui\\wxzui_common.css"
+			],
+			[
+				"varietyreview",
+				"WEB-INF\\view\\space\\varietyreview.ftl"
+			],
+			[
+				"jquery.spinner.js",
+				"js\\plugins\\jquery.spinner\\js\\jquery.spinner.js"
+			],
+			[
+				"index.",
+				"js\\index.js"
+			],
+			[
+				"fly",
+				"js\\plugins\\jquery.fly\\jquery.fly.js"
+			],
+			[
+				"inx",
+				"WEB-INF\\view\\index.ftl"
+			],
+			[
+				"varietycontrol",
+				"WEB-INF\\view\\space\\varietycontrol.ftl"
+			],
+			[
+				"jquery.cooki",
+				"js\\plugins\\cookie\\1.4.1\\jquery.cookie.js"
+			],
+			[
+				"jquery.co",
+				"js\\plugins\\cookie\\1.2.0\\jquery.cookie.js"
+			],
+			[
+				"in",
+				"css\\index.css"
+			],
+			[
+				"jquery.f",
+				"js\\jquery.form.js"
+			],
+			[
+				"",
+				"js\\my.js"
+			],
+			[
+				"sy",
+				"css\\style.css"
+			],
+			[
+				"variet",
+				"WEB-INF\\view\\space\\varietycontrols.ftl"
+			],
+			[
+				"drugikwords",
+				"WEB-INF\\view\\drugikwords\\list.ftl"
+			],
+			[
+				"hadmin.js",
+				"js\\hAdmin.js"
+			],
+			[
+				"index.js",
+				"js\\index.js"
+			],
+			[
+				"verc",
+				"WEB-INF\\view\\space\\varietycontrol.ftl"
+			],
+			[
+				"bootstrapmenu",
+				"js\\plugins\\BootstrapMenu\\BootstrapMenu.min.js"
+			],
+			[
+				"select2",
+				"js\\plugins\\select2\\js\\select2.js"
+			],
+			[
+				"bootstrap3-typeahead.js",
+				"js\\plugins\\Bootstrap3-Typeahead\\bootstrap3-typeahead.js"
+			],
+			[
+				"storereport.ftl",
+				"WEB-INF\\view\\report\\storereport.ftl"
+			],
+			[
+				"boo",
+				"js\\plugins\\Bootstrap3-Typeahead\\bootstrap3-typeahead.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Program Files (x86)\\Sublime Text3\\药品对照.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 640.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

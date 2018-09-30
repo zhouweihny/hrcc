@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<title>消费者分析</title>
+<link rel="stylesheet" href="${request.contextPath}/js/wx/js/jquery-weui/lib/weui.min.css">
+<link rel="stylesheet" href="${request.contextPath}/js/wx/js/jquery-weui/css/jquery-weui.min.css">
+<link rel="stylesheet" href="${request.contextPath}/js/wx/css/font-awesome.css?v=4.4.0">
+<link rel="stylesheet" href="${request.contextPath}/js/wx/js/mobiscroll/mobiscroll.zcore.css">
+<link rel="stylesheet" href="${request.contextPath}/js/wx/js/iscroll/4.2.5/pullToRefresh.css">
+<link rel="stylesheet" href="${request.contextPath}/js/wx/css/wxzui_common.css?v=1">
+<style>
+.weui-label {
+    width: 3.5rem;
+    color: #555;
+}
+.weui-cell__bd .detaildes {
+    font-size: .65rem;
+}
+#wrapper .weui-cells:after {
+    border-bottom: 0;
+}
+.weui-cell_access .weui-cell__ft:after {
+    width: 0;
+    height: 0;
+    border: 0;
+}
+.zcell.weui-cell {
+    display: block;
+}
+.zcell.weui-cell:before {
+    border: 0;
+    height: 0;
+}
+.zcard {
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 5px 8px 0 rgba(0,0,0,.14), 0 1px 14px 0 rgba(0,0,0,.12);
+    color: rgba(0,0,0,.87);
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+.zcard .z_h {
+    border-bottom: 1px solid #e5e5e5;
+    height: 35px;
+    line-height: 35px;
+    font-size: .7rem;
+}
+.zcard .z_b {
+    font-size: .55rem;
+    margin-top: 10px;
+}
+.zcard .weui-flex__item {
+    margin-bottom: 8px;
+    color: #636363;
+}
+.zcard label {
+    margin-right: 6px;
+}
+.zcard .z_f {
+    font-size: .55rem;
+    margin-top: 5px;
+    padding-top: 6px;
+    border-top: 1px solid #e5e5e5;
+}
+.zcard .z_f label, .zcard .z_f .qty {
+    line-height: 24px;
+    vertical-align: middle;
+}
+.zcard .z_f .qty {
+    font-size: .9rem;
+    color: red;
+    display: block;
+    position: relative;
+}
+.zcard .z_f .qty:after {
+    content: " ";
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    border-width: 2px 2px 0 0;
+    border-color: #c8c8cd;
+    border-style: solid;
+    -webkit-transform: matrix(.71,.71,-.71,.71,0,0);
+    transform: matrix(.71,.71,-.71,.71,0,0);
+    position: relative;
+    top: -2px;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -4px;
+}
+#J_cards {
+    background: #fbfbfb;
+}
+
+#J_cards.ctype .weui-cell {
+    padding: 0;
+}
+#J_cards.ctype .zcard {
+    border-radius: 0;
+    margin: 12px 0;
+    padding: 5px 16px;
+}
+.J_router_search_detail .J_content .weui-cell .weui-cell__hd {
+    border-right: 0;
+}
+#J_restForm .fa {
+    font-size: 1.1rem;
+}
+</style>
+</head>
+<body class="zui nofooter">
+
+<section class="J_router_main">
+    <header class="J_header">
+        <a class="J_header_back" href="javascript:;"><i class="fa fa-angle-left"></i></a>
+        <h1 class="J_header-title">消费者分析</h1>
+        <a class="J_header_right_icon" href="#/J_router_search">筛选</a>
+    </header>
+
+    <div class="J_content" id="wrapper">
+        <div class="weui-cells ctype" id="J_cards">
+            
+        </div>
+    </div>
+</section>
+
+<section class="fn-hide J_router_search">
+    <header class="J_header">
+        <a class="J_header_back" href="javascript:;"><i class="fa fa-angle-left"></i></a>
+        <h1 class="J_header-title">筛选</h1>
+        <a class="J_header_right_icon" href="javascript:;" id="J_restForm"><i class="fa fa-refresh" aria-hidden="true"></i></a>
+    </header>
+
+    <div class="J_content">
+        
+    </div>
+
+    <div class="J_btnwrap">
+        <a href="javascript:;" class="zbtn" id="J_subData">查询</a>
+    </div>
+</section>
+
+<section class="fn-hide J_router_detail">
+    <header class="J_header">
+        <a class="J_header_back" href="javascript:;"><i class="fa fa-angle-left"></i></a>
+        <h1 class="J_header-title">详情</h1>
+    </header>
+
+    <div class="J_content">
+        
+    </div>
+</section>
+
+<textarea class="fn-hide" id="T_cards">
+{{#each this}}
+<a class="weui-cell weui-cell_access zcell" href="javascript:;" data-json="{{retJson2Str this}}">
+    <div class="weui-cell__bd weui-cell_primary">
+        <div class="zcard">
+            <div class="z_h">
+                {{goodsname}}
+            </div>
+            <div class="z_b">
+                <div class="weui-flex">
+                    <div>
+                        <label>规格：</label>
+                    </div>
+                    <div class="weui-flex__item">
+                        <span class="des">{{fmodel}}</span>
+                    </div>
+                </div>
+                <div class="weui-flex">
+                    <div>
+                        <label>批号：</label>
+                    </div>
+                    <div class="weui-flex__item">
+                        <span class="des">{{fbatchnumber}}</span>
+                    </div>
+                </div>
+                <div class="weui-flex">
+                    <div>
+                        <label>产地：</label>
+                    </div>
+                    <div class="weui-flex__item">
+                        <span class="des">{{fprodplace}}</span>
+                    </div>
+                </div>
+                <div class="weui-flex">
+                    <div>
+                        <label>公司：</label>
+                    </div>
+                    <div class="weui-flex__item">
+                        <span class="des">{{storagename}}</span>
+                    </div>
+                </div>
+                <div class="weui-flex">
+                    <div>
+                        <label>批次：</label>
+                    </div>
+                    <div class="weui-flex__item">
+                        <span class="des">{{fbatchno}}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="z_f">
+                <div class="weui-flex">
+                    <div>
+                        <label>库存：</label>
+                    </div>
+                    <div class="weui-flex__item">
+                        <span class="des qty">
+                        {{#if qty}}
+                            {{qty}}
+                        {{else}}
+                            &nbsp;
+                        {{/if}}
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
+{{/each}}
+</textarea>
+
+<textarea class="fn-hide" id="T_detail">
+<div class="weui-cells">
+    <div class="weui-cell">
+        <div class="weui-cell__hd">
+            <label for="" class="weui-label">编码：</label>
+        </div>
+        <div class="weui-cell__bd">
+            <p class="detaildes">{{goodsnumber}}</p>
+        </div>
+    </div>
+</div>
+</textarea>
+
+<textarea class="fn-hide" id="T_search">
+<div class="weui-cells">
+    <div class="weui-cell">
+        <div class="weui-cell__hd">
+            <label for="" class="weui-label">开始日期：</label>
+        </div>
+        <div class="weui-cell__bd">
+            <div class="J_dateWrap">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+                <input value="" class="weui-input J_date J_sdate" readonly="readonly" name="appDate" type="text">
+            </div>
+        </div>
+    </div>
+    <div class="weui-cell">
+        <div class="weui-cell__hd">
+            <label for="" class="weui-label">结束日期：</label>
+        </div>
+        <div class="weui-cell__bd">
+            <div class="J_dateWrap">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+                <input value="" class="weui-input J_date J_edate" readonly="readonly" name="appDate" type="text">
+            </div>
+        </div>
+    </div>
+</div>
+</textarea>
+
+<script src="${request.contextPath}/js/wx/js/jquery-weui/lib/jquery-2.1.4.js"></script>
+<script src="${request.contextPath}/js/wx/js/jquery-weui/js/jquery-weui.min.js"></script>
+<script src="${request.contextPath}/js/wx/js/handlebars.js"></script>
+<script src="${request.contextPath}/js/wx/js/swiper.js"></script>
+<script src="${request.contextPath}/js/wx/js/mobiscroll/mobiscroll.zcore.js"></script>
+<script src="${request.contextPath}/js/wx/js/lrz.all.bundle.js"></script>
+<script src="${request.contextPath}/js/wx/js/director.min.js"></script>
+<script src="${request.contextPath}/js/wx/js/iscroll/4.2.5/iscroll.js"></script>
+<script src="${request.contextPath}/js/wx/js/iscroll/4.2.5/pullToRefresh.js"></script>
+<script src="${request.contextPath}/js/wx/js/wxzui_common.js"></script>
+<script>
+
+srvMap.add("json", "${request.contextPath}/js/wx/json/tableData3.json", "${request.contextPath}/kcsj/wx");
+
+var endFlag = 0,
+    refreshFlag = 1,
+    page = 1,
+    rows = 10,
+    pagedata = {
+        url: srvMap.get("json"),
+        data: '&page='+page+'&rows='+rows,
+        errorMsg: '暂无库存信息',
+        callback: initzBtns
+    },
+    clickFlag = 0,
+    pageHeight = $(window).height() - 65,
+    zrouter = null,
+    cdate = '',
+    curSection = null,
+    searchData = '',
+    orgTempJson = [],
+    orgTempJsonS = [],
+    curOrgList = [],
+    zInterTimer = null,
+    tempDetailJson = null;
+
+$(function(){
+
+    var routerObj = {
+        '/J_router_detail': {
+            on: function(){
+                curSection = $(".J_router_detail .J_content");
+                setTimeout(function(){
+                    showDetail();
+                }, 30)
+            },
+            after: function(){
+                curSection.html('');
+                curSection = $(".J_router_main .J_content");
+            }
+        },
+        '/J_router_search': {
+            once: function(){
+                setTimeout(function(){
+                    showSearch();
+                }, 30)
+            },
+            on: function(){
+                curSection = $(".J_router_search .J_content");
+            },
+            after: function(){
+                curSection = $(".J_router_main .J_content");
+            }
+        },
+        '/J_router_main': {
+            once: function(){
+                setTimeout(function(){
+                    initPage();
+                }, 30)
+            },
+            on: function(){
+                curSection = $(".J_router_main .J_content");
+            }
+        }
+    }
+    initZrouter(routerObj, function(router){
+        zrouter = router;
+    });
+})
+
+function initPage(){
+    $("#wrapper").css({"height": pageHeight});
+
+    var curDate = new Date(),
+        _m = ((curDate.getMonth()+1)<10) ? ("0"+(curDate.getMonth()+1)) : (curDate.getMonth()+1),
+        firstdate = curDate.getFullYear() + "-"+ _m + "-01";
+    searchData = 'sdate='+firstdate+'&edate='+getCurDate(curDate);
+
+    refresher.init({
+        id: "wrapper",
+        li: "weui-cells",
+        pullDownAction: Refresh,
+        pullUpAction: Load
+    });
+
+    getAjaxDataIscrollCommon(pagedata);
+}
+
+function Refresh() {
+    page = 1;
+    endFlag = 0;
+    refreshFlag = 1;
+    $(".pullUp").css({"display": "block"});
+    $(".pullUp .pullUpLabel").html("上拉加载更多...");
+    getAjaxDataIscrollCommon(pagedata);
+}
+
+function Load() {
+    if(endFlag){
+        wrapper.refresh();
+        $(".pullUp .pullUpLabel").html("没有更多数据了...");
+        return false;
+    }
+    page++;
+    getAjaxDataIscrollCommon(pagedata);
+}
+
+function initzBtns(){
+    curSection.find(".zcell").off("click").on("click", function(){
+        tempDetailJson = $(this).data("json");
+        zrouter.setRoute('J_router_detail');
+    })
+}
+
+function showDetail(){
+    if(!tempDetailJson){
+        showResDes(pageHeight, curSection);
+        return false;
+    }
+    curSection.css({"height": pageHeight, "overflow-y": "auto"});
+    curSection.temp($("#T_detail").val(), tempDetailJson);
+    $(".J_router_detail .J_header-title").text(tempDetailJson.goodsname);
+}
+
+function showSearch(){
+    curOrgList = [];
+    curSection.html($("#T_search").val());
+
+    // 获取当日与当月1号
+    var curDate = new Date(),
+        _sdate = $(".J_sdate"),
+        _edate = $(".J_edate"),
+        _sdateMob = _sdate.val(),
+        _edateMob = _edate.val(),
+        _m = ((curDate.getMonth()+1)<10) ? ("0"+(curDate.getMonth()+1)) : (curDate.getMonth()+1),
+        firstdate = curDate.getFullYear() + "-"+ _m + "-01";
+
+    var opt1 = {
+        dateFormat: "yy-mm-dd",
+        maxDate: curDate,
+        onSelect: function(edate){
+            opt2.minDate = new Date(edate);
+            _edateMob.init(opt2);
+        }
+    };
+    var opt2 = {
+        dateFormat: "yy-mm-dd",
+        minDate: new Date(firstdate),
+        maxDate: curDate,
+        onSelect: function(edate){
+            opt1.maxDate = new Date(edate);
+            _sdateMob.init(opt1);
+        }
+    }
+    if(_sdateMob){
+        _sdateMob.destroy();
+        _edateMob.destroy();
+        _sdateMob = null;
+        _edateMob = null;
+    }
+    _sdate.val(firstdate).mobiscroll().date(opt1);
+    _edate.val(getCurDate(curDate)).mobiscroll().date(opt2);
+    _sdateMob = _sdate.mobiscroll('getInst');
+    _edateMob = _edate.mobiscroll('getInst');
+
+    $("#J_restForm").off("click").on("click", function(){
+        showSearch();
+    })
+
+    /*createLoading();
+    $.PostJson("${request.contextPath}/org/mylist", "", function(state, json){
+        if(state == 'success'){
+            if(json && json.code == '0000'){
+                if(json.data && json.data.data.length){
+                    orgTempJsonS = json.data.data;
+                    
+                    var _J_orgInput = curSection.find(".J_orgInput");
+                    _J_orgInput.off("click").on("click", function(){
+                        zrouter.setRoute('J_router_search_detail');
+                    })
+
+                    setTimeout(function(){
+                        $("#J_subData").off("click").on("click", function(){
+                            subData();
+                        })
+                    }, 30)
+                }else{
+                    MyFun.to.e("暂无绑定组织");
+                }
+            }else{
+                MyFun.to.e(json.message || "查询已绑定组织失败");
+            }
+        }
+        unblockLoading();
+    })*/
+}
+
+function subData(){
+    var sdate = curSection.find(".J_sdate").val(),
+        edate = curSection.find(".J_edate").val();
+    /*name = name.replace(/\%/g, "%25").replace(/\+/g, "%2B").replace(/\&/g, "%26");
+    if(!name){
+        zuiTotast("请输入品名", "2", function(){
+            curSection.find(".J_name").focus();
+        });
+        return false;
+    }*/
+    page = 1;
+    endFlag = 0;
+    refreshFlag = 1;
+    $(".pullUp").css({"display": "block"});
+    $(".pullUp .pullUpLabel").html("上拉加载更多...");
+    searchData = "&sdate="+sdate+"&edate="+edate;
+    window.history.back();
+    setTimeout(function(){
+        $("#J_cards").html("");
+        wrapper.scrollTo(0, 0, 200);
+        getAjaxDataIscrollCommon(pagedata);
+    }, 200)
+    return false;
+}
+</script>
+</body>
+</html>

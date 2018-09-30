@@ -1,0 +1,189 @@
+package com.modules.pojo;
+
+import java.io.Serializable;
+
+/**
+ * 
+ * @author Du.Jun <b>功能：</b>Agent<br>
+ */
+@com.commons.annotation.Relation("t_agent")
+public class Agent implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+
+	@com.commons.annotation.Column(value = "id", isId = true, generateId = true)
+	private java.lang.String id; // id
+
+	@com.commons.annotation.Column(value = "name")
+	private java.lang.String name; // name
+
+	@com.commons.annotation.Column(value = "mobileno")
+	private java.lang.String mobileno; // mobileno
+
+	@com.commons.annotation.Column(value = "factory")
+	private java.lang.String factory; // factory
+
+	@com.commons.annotation.Column(value = "userid")
+	private java.lang.String userid;
+
+	@com.commons.annotation.Column(value = "purchaserid")
+	private java.lang.String purchaserid; // purchaserid
+
+	@com.commons.annotation.Column(value = "remark")
+	private java.lang.String remark; // remark
+
+	@com.commons.annotation.Column(value = "operatorid")
+	private java.lang.String operatorid; // operatorid
+
+	@org.springframework.format.annotation.DateTimeFormat(pattern = "yyyy-MM-dd HH:mm")
+	@com.commons.annotation.Column(value = "createtime")
+	private java.util.Date createtime; // createtime
+
+	@org.springframework.format.annotation.DateTimeFormat(pattern = "yyyy-MM-dd HH:mm")
+	@com.commons.annotation.Column(value = "updatetime")
+	private java.util.Date updatetime; // updatetime
+
+	/**
+	 * @return the id
+	 */
+	public java.lang.String getId() {
+		return id;
+	}
+
+	/**
+	 * @param id
+	 *            the id to set
+	 */
+	public void setId(java.lang.String id) {
+		this.id = id;
+	}
+
+	/**
+	 * @return the name
+	 */
+	public java.lang.String getName() {
+		return name;
+	}
+
+	/**
+	 * @param name
+	 *            the name to set
+	 */
+	public void setName(java.lang.String name) {
+		this.name = name;
+	}
+
+	/**
+	 * @return the mobileno
+	 */
+	public java.lang.String getMobileno() {
+		return mobileno;
+	}
+
+	/**
+	 * @param mobileno
+	 *            the mobileno to set
+	 */
+	public void setMobileno(java.lang.String mobileno) {
+		this.mobileno = mobileno;
+	}
+
+	/**
+	 * @return the factory
+	 */
+	public java.lang.String getFactory() {
+		return factory;
+	}
+
+	/**
+	 * @param factory
+	 *            the factory to set
+	 */
+	public void setFactory(java.lang.String factory) {
+		this.factory = factory;
+	}
+
+	/**
+	 * @return the purchaserid
+	 */
+	public java.lang.String getPurchaserid() {
+		return purchaserid;
+	}
+
+	/**
+	 * @param purchaserid
+	 *            the purchaserid to set
+	 */
+	public void setPurchaserid(java.lang.String purchaserid) {
+		this.purchaserid = purchaserid;
+	}
+
+	/**
+	 * @return the remark
+	 */
+	public java.lang.String getRemark() {
+		return remark;
+	}
+
+	/**
+	 * @param remark
+	 *            the remark to set
+	 */
+	public void setRemark(java.lang.String remark) {
+		this.remark = remark;
+	}
+
+	/**
+	 * @return the operatorid
+	 */
+	public java.lang.String getOperatorid() {
+		return operatorid;
+	}
+
+	/**
+	 * @param operatorid
+	 *            the operatorid to set
+	 */
+	public void setOperatorid(java.lang.String operatorid) {
+		this.operatorid = operatorid;
+	}
+
+	/**
+	 * @return the createtime
+	 */
+	public java.util.Date getCreatetime() {
+		return createtime;
+	}
+
+	/**
+	 * @param createtime
+	 *            the createtime to set
+	 */
+	public void setCreatetime(java.util.Date createtime) {
+		this.createtime = createtime;
+	}
+
+	/**
+	 * @return the updatetime
+	 */
+	public java.util.Date getUpdatetime() {
+		return updatetime;
+	}
+
+	/**
+	 * @param updatetime
+	 *            the updatetime to set
+	 */
+	public void setUpdatetime(java.util.Date updatetime) {
+		this.updatetime = updatetime;
+	}
+
+	public java.lang.String getUserid() {
+		return userid;
+	}
+
+	public void setUserid(java.lang.String userid) {
+		this.userid = userid;
+	}
+
+}

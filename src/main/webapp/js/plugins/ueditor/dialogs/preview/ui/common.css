@@ -1,0 +1,374 @@
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	/*-webkit-user-select: none;*//*导致输入框无法输入*/
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+}
+html {
+	-webkit-text-size-adjust: 100%;
+}
+body {
+	font-family: \5fae\8f6f\96c5\9ed1, Verdana, Arial, \5b8b\4f53, sans-serif!important;
+	background: #fbf9fe;
+	font-size: 14px!important;
+	width: 375px!important;
+	color: #000!important;
+}
+/**
+ * 常用
+**/
+.fn-mr-20 {
+	margin-right: 20px;
+}
+.fn-ml-20 {
+	margin-left: 20px;
+}
+.fn-high {
+	color: red;
+}
+.fn-right {
+	float: right;
+}
+.fn-left {
+	float: left;
+}
+/* 清理浮动 */
+.fn-clear:after {
+    visibility:hidden;
+    display:block;
+    font-size:0;
+    content:" ";
+    clear:both;
+    height:0;
+}
+.fn-clear {
+    zoom:1; /* for IE6 IE7 */
+}
+.fn-center {
+	text-align: center!important;
+}
+.fn-text-right {
+	text-align: right!important;
+}
+.fn-hide {
+	display: none;
+}
+.fn-va-top {
+	vertical-align: top;
+}
+.fn-pd-10 {
+	padding: 10px;
+}
+.fn-mb-20 {
+	margin-bottom: 20px;
+}
+.fn-verti {
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+/**
+ * 超过宽度截取以省略号结尾，需要定义宽度
+**/
+.fn-ellip {
+	word-break:keep-all;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+/**
+ * 暂无内容
+**/
+.noContent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #fff;
+	height: 100%;
+	width: 100%;
+}
+.noContent .noContentBlock {
+	background: url(img/noContent.png) 0 0 no-repeat;
+    width: 159px;
+    height: 177px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -207px 0 0 -85px;
+}
+.noContent .noContentBlock span {
+    position: absolute;
+    right: 54px;
+    bottom: -40px;
+}
+.zui-totast {
+	background: #3C3C3C;
+	width: auto;
+	border-radius: 5px;
+	z-index: 999;
+	cursor: wait;
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	margin: -20px 0 0 -85px;
+	padding: 10px 20px;
+	font-size: 14px;
+	color: #fff;
+    max-width: 70%;
+	word-break: break-all;
+	word-wrap: break-word;
+	-webkit-transition: opacity .5s;
+	transition: opacity .5s;
+	opacity: 0;
+}
+/**
+ * css3 动画
+ * http://clovisdasilvaneto.github.io/all-animation/
+**/
+/***** Bounce ******/
+.enter-up-bounce {
+	opacity: 1 !important;
+	visibility: visible !important;
+	-webkit-animation: enterUpBounce 1s linear;
+	animation: enterUpBounce 1s linear;
+}
+@-webkit-keyframes enterUpBounce {
+	0% {
+		transform: translateY(220px);
+		opacity: 0;
+	}
+	50% {
+		transform: translateY(0px);
+	}
+	70% {
+		transform: translateY(20px);
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes enterUpBounce {
+	0% {
+		transform: translateY(220px);
+		opacity: 0;
+	}
+	50% {
+		transform: translateY(0px);
+	}
+	70% {
+		transform: translateY(20px);
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.weui_search_inner .weui_search_input {
+	font-family: \5fae\8f6f\96c5\9ed1, Verdana, Arial, \5b8b\4f53, sans-serif;
+}
+.weui_search_inner .weui_icon_search {
+	top: 0;
+}
+.weui_tabbar {
+	/* position: fixed;
+	z-index: 99; */
+}
+.weui_tabbar_icon span.iconimg {
+	background: url(img/docAll.png) 0 0 no-repeat;
+	width: 28px;
+	height: 24px;
+	display: block;
+	background-size: 389px 341px;
+}
+.weui_tabbar .weui_tabbar_item:nth-child(1) .iconimg {
+	background-position: -40px -310px;
+}
+.weui_tabbar .weui_tabbar_item:nth-child(2) .iconimg {
+	background-position: -137px -310px;
+}
+.weui_tabbar .weui_tabbar_item:nth-child(3) .iconimg {
+	background-position: -269px -310px;
+}
+.weui_tabbar .weui_bar_item_on:nth-child(1) .iconimg {
+	background-position: -68px -310px;
+}
+.weui_tabbar .weui_bar_item_on:nth-child(2) .iconimg {
+	background-position: -169px -310px;
+}
+.weui_tabbar .weui_bar_item_on:nth-child(3) .iconimg {
+	background-position: -297px -310px;
+}
+.weui_tabbar_item.weui_bar_item_on .weui_tabbar_label {
+	color: #01C6A3;
+}
+
+.J_header {
+	position: fixed;
+	z-index: 10;
+	right: 0;
+	left: 0;
+	height: 44px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-bottom: 0;
+	background: #01C6A3;
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,.35);
+	box-shadow: 0 0 1px rgba(0,0,0,.35);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.J_header .J_title {
+	font-size: 17px;
+	font-weight: 500;
+	line-height: 44px;
+	position: absolute;
+	padding: 0;
+	text-align: center;
+	white-space: nowrap;
+	color: #fff;
+	right: 40px;
+	left: 40px;
+	display: inline-block;
+	overflow: hidden;
+	width: auto;
+	margin: 0;
+	text-overflow: ellipsis;
+}
+.J_header .J_back {
+	line-height: 1;
+	display: inline-block;
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+	font-size: 24px;
+	position: relative;
+	z-index: 20;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: -10px;
+	margin-left: -10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #fff;
+	width: 50px;
+}
+.J_storeMed_wrap {
+
+}
+.J_storeMed_wrap .J_cards {
+	
+}
+.J_storeMed_wrap .J_cards p {
+	color: #fff;
+	font-size: 14px;
+	line-height: 28px;
+	width: 100%;
+	word-break:keep-all;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.J_storeMed_wrap .J_cards .J_card {
+	position: relative;
+	margin: 15px 10px;
+	border-radius: 5px;
+	/*margin: -7px 10px 0;
+	box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.21);*/
+}
+.J_storeMed_wrap .J_cards .J_card:first-child {
+	/*margin-top: 20px;*/
+}
+.J_storeMed_wrap .J_cards .J_card.zgreen {
+	background: #00C6A3;
+}
+.J_storeMed_wrap .J_cards .J_card.zyellow {
+	background: #FFAC42;
+}
+.J_storeMed_wrap .J_cards .J_card.zred {
+	background: #FF5BA7;
+}
+.J_storeMed_wrap .J_cards .J_card.zblue {
+	background: #41B6FB;
+}
+.J_storeMed_wrap .J_cards .J_card.zpurple  {
+	background: #8F00CA;
+}
+
+.J_storeMed_wrap .J_cards .J_card .J_info {
+	width: 76%;
+	height: 100%;
+	overflow: hidden;
+}
+.J_storeMed_wrap .J_cards .J_card .J_info .name {
+	font-size: 17px;
+	margin-right: 10px;
+}
+.J_storeMed_wrap .J_cards .J_card .J_info .specification {
+	font-size: 12px;
+}
+.J_storeMed_wrap .J_cards .J_card .J_info .factory {
+
+}
+.J_storeMed_wrap .J_cards .J_card .J_info .advantage_icon {
+	background: url(img/advanIcon2.png) 0 -1px no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: -3px;
+}
+.J_storeMed_wrap .J_cards .J_card .J_info .advantage {
+
+}
+.J_storeMed_wrap .J_cards .J_card .J_hand {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	width: 24%;
+	height: 100%;
+	text-align: center;
+}
+.J_storeMed_wrap .J_cards .J_card .J_hand .J_collection {
+	background: url(img/docAll.png) 0 0 no-repeat;
+	width: 30px;
+	height: 40px;
+	display: block;
+	background-position: -91px -327px;
+	background-size: 648px 532px;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+.J_storeMed_wrap .J_cards .J_card .J_hand .J_collection.active {
+	background-position: -56px -327px;
+}
+.J_storeMed_wrap .J_cards .J_card .J_hand .price {
+	margin-top: 7px;
+	display: block;
+	font-size: 17px;
+}
+ .J_content {
+ 	margin-bottom: 55px;
+} 
+
+.zui .weui_tabbar {
+	position: fixed;
+	z-index: 10;
+	right: 0;
+	left: 0;
+	height: 55px;
+	border-bottom: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
